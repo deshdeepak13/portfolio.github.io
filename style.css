@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); /*Bebas neue  (head)*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap"); /*Manrope*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  position: relative;
+}
+
+hr {
+  border-color: rgb(57, 57, 57);
+  height: 0px;
+  /* width: 100vw; */
+}
+
+/* HEADER SECTION  */
+
+.header{
+  /* text-align: center; */
+  display: inline;
+  width: 100vw;
+}
+.header nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 47px;
+  /* width: 100%; */
+  position: relative;
+  top: 0;
+  z-index: 10;
+
+}
+
+.name-logo {
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  color: rgb(199, 199, 199);
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul li {
+  list-style-type: none;
+  padding: 10px 15px;
+  font-family: "Manrope";
+  font-size: 12px;
+  color: rgb(199, 199, 199);
+}
+
+/* HOME PAGE  */
+
+.home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 95vh;
+  
+}
+
+.home-box{
+  padding: 20px;
+  
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box1 .name {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  padding: 5px;
+}
+
+.box1 .intro {
+  font-family: "Manrope";
+  font-size: 13px;
+  color: rgb(199, 199, 199);
+  padding: 5px;
+  width: 400px;
+}
+
+.contact-btn {
+  display: flex;
+  font: "Manrope";
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 31px;
+}
+
+.contact-btn .btn1 {
+  background-color: rgb(211, 233, 122);
+  padding: 5px 15px;
+  border-radius: 26px;
+  color: black;
+  font-family: "Manrope";
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+#bullet {
+  font-size: 20px;
+  font-weight: 1000;
+  padding-left: 15px;
+}
+
+.btn2,
+.btn3 {
+  padding: 10px;
+  color: rgb(211, 233, 122);
+}
+
+.box2{
+  padding: 20px;
+  text-align: center;
+}
+
+.box2 img {
+  border-radius: 12px;
+  border: 1px solid rgb(199, 199, 199);
+  border-bottom: 0px;
+  border-left: 0px;
+  height:70vh;
+  /* size: ; */
+  /* margin: 20px; */
+
+}
+
+
+
+
+
+
+/* WORK  */
+
+
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 165px;
+  padding-top: 165px;
+
+}
+
+.title-work {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  /* padding */
+}
+
+.title-work .caption-work {
+  font-family: "Manrope";
+  font-size: 13px;
+  color: rgb(199, 199, 199);
+  width: 400px;
+  padding-left: 10px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 60px 40px; */
+  /* margin: 20px; */
+  font-family: "Manrope";
+  /* width: 100vw; */
+}
+
+
+.img-proj img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgb(57, 57, 57);
+}
+
+.img-proj {
+  /* background-color: rgb(26, 26, 26); */
+  /* width: 75%; */
+  margin: 20px;
+  text-align: center;
+  /* border-radius: 12px; */
+  /* border: 20px solid rgb(26, 26, 26); */
+  /* border-width: 100px 20px; */
+  width: 40%;
+}
+
+.content-proj {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 40%;
+  margin: 60px 40px;
+}
+
+.proj-title {
+  font-family: "Manrope";
+  font-size: 32px;
+  font-weight: 400;
+  /* text-decoration: underline; */
+}
+
+.proj-intro {
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.content-proj ul {
+  margin-top: 10px;
+  font-family: "Manrope";
+}
+.content-proj ul li {
+  /* list-style-type:none; */
+  margin: 10px 0px;
+}
+
+.content-proj a {
+  text-decoration: none;
+  /* border: 1px solid rgb(211,233,122); */
+  border-color: rgb(211, 233, 122);
+  border-style: solid;
+  border-width: 0px 0 2px 0;
+  padding-bottom: 5px;
+  font-family: "Manrope";
+  font-weight: 500;
+  margin: 13px;
+  /* border-bottom: 2px; */
+}
+
+
+.content-proj .redirect {
+  display: flex;
+  margin: 5px;
+  /* justify-content: space-between; */
+}
+
+
+
+
+.about {
+  display: flex;
+  padding: 165px;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.title-about {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  /* margin: 20px; */
+}
+
+.about-content {
+  /* margin: 20px; */
+  /* margin-left: 170px; */
+  padding: 20px 110px 177px 110px;
+  font-family: "Manrope";
+}
+
+.about-content .proj-intro {
+  font-size: 16px;
+  padding-bottom: 10px;
+  width: 600px;
+  /* text-align: right; */
+}
+
+.about-content a {
+  text-decoration: none;
+  /* border: 1px solid rgb(211, 233, 122); */
+  border-color: rgb(211, 233, 122);
+  border-style: solid;
+  border-width: 0px 0 2px 0;
+  padding-bottom: 5px;
+  font-family: "Manrope";
+  font-weight: 500;
+  margin: 13px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 75px; */
+  padding-top: 165px;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+
+.box-contact1 {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  /* margin-left: 90px; */
+}
+
+.box-contact1 p {
+  color: rgb(199, 199, 199);
+  width: 300px;
+  /* padding: 20px;
+    padding-left: 0; */
+  font-family: "Manrope";
+  font-size: 13px;
+}
+
+
+.box-contact1 ul {
+  display: flex;
+  padding-top: 50px;
+  font-family: "Manrope";
+  font-size: 13px;
+  /* justify-content: space-between; */
+}
+
+
+.box-contact1 ul li {
+  /* display: flex; */
+  list-style-type: none;
+  padding: 10px 40px 10px 0;
+}
+
+
+
+.box-contact1 p a,
+u {
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: rgb(211, 233, 122);
+  color: rgb(199, 199, 199);
+}
+
+
+
+
+.box-contact2 {
+  /* margin-right: 40px; */
+  width: 40vw;
+  /* padding: 5px; */
+}
+
+.box-contact2 form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: ; */
+  font-family: "Manrope";
+}
+
+.box-contact2 form label {
+  color: rgb(199, 199, 199);
+  font-size: small;
+  padding: 10px 2px;
+}
+
+
+.box-contact2 form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(26, 26, 26);
+  border: 0;
+  color: rgb(199, 199, 199);
+  font-family: "Manrope";
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.box-contact2 button {
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: rgb(211, 233, 122);
+  font-weight: 550;
+  border: 0;
+  cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  margin: 10px;
+  padding: 4px;
+}
+footer u {
+  text-decoration: none;
+  color: rgb(211, 233, 122);
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+
+
+@media only screen and (min-width:1050px){
+  .box2 img{height:90vh;}
+
+}
+@media only screen and (max-width:860px){
+  .home{flex-direction: column;
+  height: auto;}
+  .box1{
+    align-items: center;
+    max-width:600px;
+  }
+  .name{text-align: center;}
+  .home-box{height:min-content;}
+
+}
+
+@media only screen and (max-width:1000px){
+  .projects,.contact{
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .contact,.box-contact1{align-items: center;
+  text-align: center;}
+  .title-work{margin: auto;
+  text-align: center;}
+  .content-proj{width: 90%;}
+  .img-proj{width: 60%;}
+  #secondproj{flex-direction: column-reverse;}
+  /* .box-contact1{justify-content: center;} */
+  .contact-links{justify-content: center;}
+}
